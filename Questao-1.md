@@ -27,4 +27,3 @@ Na **Árvore Rubro-Negra** (base do `TreeMap` e `HashMap` do Java), as cores (**
 **Função:**
 As cores permitem que a árvore se rebalanceie com **menos rotações** do que uma AVL. Isso oferece um excelente meio-termo: inserções e remoções são mais rápidas, mantendo a busca ainda muito eficiente ($O(\log n)$). É a estrutura de uso geral preferida nas bibliotecas padrão da maioria das linguagens.
 
-> **Nota Java:** O `java.util.TreeMap` utiliza internamente uma Árvore Rubro-Negra.
